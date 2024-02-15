@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+    margin: 10rem;
+  }
+  
+  .container-contact p {
+    text-align: center;
+    font-size: 32px;
+    color: #082465;
+    line-height: 38.4px;
+  }
+  .container-contact p span {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .contact-details input {
+    width: 50%;
+    padding: 1rem;
+    background-color: #dedee0;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .contact-details textarea {
+    width: 50%;
+    height: 20vh;
+    padding: 1rem;
+    border: none;
+    background-color: #dedee0;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .contact-details button {
+    padding: 0.5rem 3rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background-color: #fec913;
+    color: #ffffff;
+    margin-top: 2rem;
+  }
+  
+  .contact-details button:hover {
+    transform: translateY(-0.5rem);
+    transition: ease-in-out 0.6s;
+    cursor: pointer;
+    box-shadow: #232323;
+  }
+  
+  .btn {
+    color: rgb(255, 255, 255);
+    background-color: #fec913;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+  
+    @media (min-width: 400px) {
+      display: inline-block;
+      margin-right: 2.5em;
+      &:nth-of-type(even) {
+        margin-right: 0;
+      }
+    }
+  
+    @media (min-width: 600px) {
+      margin: 0 1em 2em;
+  
+      &:nth-of-type(even) {
+        margin-right: 2.5em;
+      }
+      &:nth-of-type(5) {
+        margin-right: 0;
+      }
+    }
+  
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  .btn-1 {
+    background: darken(rgb(255, 255, 255), 1.5%);
+    font-weight: 100;
+  
+    svg {
+      height: 45px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  
+    rect {
+      fill: none;
+      stroke: #082465;
+      stroke-width: 2;
+      stroke-dasharray: 422, 0;
+      transition: all 0.35s linear;
+    }
+  }
+  
+  .btn-1:hover {
+    background: rgba(red, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+  
+    rect {
+      stroke-width: 5;
+      stroke-dasharray: 15, 310;
+      stroke-dashoffset: 48;
+      transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
+  
