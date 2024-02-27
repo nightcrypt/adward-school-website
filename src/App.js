@@ -11,9 +11,11 @@ import {
   Routes,Route,
 } from 'react-router-dom' ;
 import './App.css';
+import VechicleFacility from './Components/Vechicle_Facility';
 
 function App() {
   return (
+=======
     <Router>
     <Header/>
     
@@ -39,8 +41,10 @@ function App() {
         element={<Contact/>}
       ></Route>
     </Routes>
+<VechicleFacility />
  <Footer/>
  </Router>
+
   );
 }
 
