@@ -1,0 +1,60 @@
+.Teacher{
+    padding-bottom: 75px;
+}
+.Teacher-Heading{
+    color: #082465;
+    font-weight: bold;
+    text-align: center;
+}
+.Teacher-Text{
+    text-align: center;
+    margin-bottom: 1px;
+}
+.Teacher-img{
+    padding: 45px 0px;
+}
+
+.teacher-card{
+    /* display: -ms-flexbox; */
+    display: flex;
+    
+   
+     flex-direction: column;
+     }
+
+        @media (min-width: 576px){
+            .teacher-card {
+                flex-flow: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+            }
+
+.card{
+    position: relative;
+    min-width: 0;
+    background-clip: border-box;
+    border-radius: 0.25px;
+
+
+}
+@media (min-width: 576px){
+ .card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    flex: 1 0 0%;
+}
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 15px;
+}
+.card-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1px;
+    color: black;
+}
