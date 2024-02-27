@@ -11,9 +11,11 @@ import {
   Routes,Route,
 } from 'react-router-dom' ;
 import './App.css';
+import VechicleFacility from './Components/Vechicle_Facility';
 
 function App() {
   return (
+=======
     <Router>
     <Header/>
     <Routes>
@@ -38,8 +40,10 @@ function App() {
         element={<Contact/>}
       ></Route>
     </Routes>
+<VechicleFacility />
  <Footer/>
  </Router>
+
   );
 }
 // import { Form } from "react-router-dom";
