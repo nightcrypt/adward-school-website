@@ -1,13 +1,13 @@
 import Footer from "./Component/footer/Footer";
 import Header from "./Component/navbar/Navbar";
-import Home from "./components/Home";
+import Home from "./Component/Home";
 import Website from "./Component/Website";
 import Teacher from "./Component/Teacher";
 import Contact from "./Component/contact/Contact";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import VechicleFacility from "./components/Vechicle_Facility";
+import VechicleFacility from "./Component/Vechicle_Facility";
 
 function App() {
   return (
