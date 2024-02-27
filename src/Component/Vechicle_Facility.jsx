@@ -2,9 +2,9 @@ import React from "react";
 import "./Vechicle_facility.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import busImage1 from "../images/bus.png";
-import navigatebefore from "../images/navigate.svg";
-import navigatenext from "../images/navigatenext.svg";
+import busImage1 from "../Assets/bus.png";
+import navigatebefore from "../Assets/navigate.svg";
+import navigatenext from "../Assets/navigatenext.svg";
 
 function VechicleFacility() {
   return (
@@ -26,7 +26,7 @@ function VechicleFacility() {
           <img src={ navigatenext} className="right-icon" alt="Navigate-next"/>
         
         </div>
-        <img src={busImage1} className="bus-image" alt="bus-image" />
+        <img src={busImage1} className="bus-image" alt="bus" />
       </div>
     </>
   );
