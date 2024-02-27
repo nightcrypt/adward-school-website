@@ -1,50 +1,31 @@
-
-import Footer from "./components/Footer";
+import Footer from "./Component/footer/Footer";
 import Header from "./Component/navbar/Navbar";
 import Home from "./components/Home";
-import Website from './Component/Website';
-import Teacher from './Component/Teacher';
-import Contact from './Component/contact/Contact';
+import Website from "./Component/Website";
+import Teacher from "./Component/Teacher";
+import Contact from "./Component/contact/Contact";
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,Route,
-} from 'react-router-dom' ;
-import './App.css';
-import VechicleFacility from './Components/Vechicle_Facility';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import VechicleFacility from "./components/Vechicle_Facility";
 
 function App() {
   return (
-=======
     <Router>
-    <Header/>
-    
-    <Routes>
-      <Route 
-        exact
-        path="/"
-        element={<Home/>}
-      ></Route>
-      <Route 
-        exact
-        path="/"
-        element={<Teacher/>}
-      ></Route>
-      <Route 
-        exact
-        path="/"
-        element={<Website/>}
-      ></Route>
-      <Route 
-        exact
-        path="/"
-        element={<Contact/>}
-      ></Route>
-    </Routes>
-<VechicleFacility />
- <Footer/>
- </Router>
-
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/Teacher" element={<Teacher />}></Route>
+        <Route exact path="/about" element={<Website />}></Route>
+        <Route exact path="/Contact" element={<Contact />}></Route>
+        <Route exact path="/Vehicle" element={<VechicleFacility />}></Route>
+      </Routes>
+      <Teacher />
+      <Website />
+      <VechicleFacility />
+      <Contact/>
+      <Footer />
+    </Router>
   );
 }
 

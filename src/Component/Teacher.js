@@ -17,7 +17,7 @@ export default function Teacher() {
           <div className="teacher-card">
             <div className="card">
               <img src={Imaget1} alt="Really Sorry"></img>
-              <div className="card-body"> 
+              <div className="card-body">
                 <h5 className="card-title">Den Mark</h5>
               </div>
             </div>
@@ -38,15 +38,15 @@ export default function Teacher() {
               <div className="card-body">
                 <h5 className="card-title">jonson mark</h5>
               </div>
-             </div>
+            </div>
           </div>
         </div>
         <div className="about-bottom">
-            <a className="button">
-              <span>Read More</span>
-              <img src={Image9Right} alt=" New Sorry" />
-            </a>
-          </div>
+          <a className="button">
+            <span>Read More</span>
+            <img src={Image9Right} alt=" New Sorry" />
+          </a>
+        </div>
       </div>
     </div>
   );

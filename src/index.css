@@ -62,11 +62,15 @@ body {
   padding: 50px;
   display: flex;
   justify-content: space-between;
+  margin-top: 5rem;
 }
 
 .home-1{
   height: 400px;
   width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem   ;
   
   /* background-color: aqua; */
 }

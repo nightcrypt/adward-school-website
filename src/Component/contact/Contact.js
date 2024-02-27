@@ -26,7 +26,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };
