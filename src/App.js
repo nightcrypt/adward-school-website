@@ -1,10 +1,10 @@
 
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Header from "./Component/navbar/Navbar";
 import Home from "./components/Home";
 import Website from './Component/Website';
 import Teacher from './Component/Teacher';
-import Contact from './Components/contact/Contact';
+import Contact from './Component/contact/Contact';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -16,6 +16,7 @@ function App() {
   return (
     <Router>
     <Header/>
+    
     <Routes>
       <Route 
         exact
@@ -42,6 +43,5 @@ function App() {
  </Router>
   );
 }
-// import { Form } from "react-router-dom";
 
 export default App;
