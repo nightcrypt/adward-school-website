@@ -3,7 +3,7 @@
 import './App.css';
 import Website from './Component/Website';
 import Teacher from './Component/Teacher';
-import Contact from './components/contact/Contact';
+import Contact from './Components/contact/Contact';
 function App() {
   return (
     <>
