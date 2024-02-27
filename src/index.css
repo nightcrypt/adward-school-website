@@ -4,7 +4,118 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-outer{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+
+}
+
+.header-logo{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-1{
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-image: url('./components/logo.png');
+}
+
+.header-logo-2{
+  height: 50px;
+  line-height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.header-items{
+  display: flex;
+}
+.header-items:hover{
+  cursor: pointer;
+}
+.header-item{
+  font-weight: 500;
+  height: 50px;
+  width: 100px;
+  line-height: 50px;
+}
+
+.search-logo{
+  margin-left: 30px;
+}
+
+.home-outer{
+  /* border: 2px solid black; */
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-1{
+  height: 400px;
+  width: 560px;
+  
+  /* background-color: aqua; */
+}
+
+.home-1a{
+  height: 80px;
+  font-size: 30px;
+  font-weight: 900;
+  width: 200px;
+}
+
+.home-1b{
+  color: rgb(237, 207, 13);
+  font-size: 50px;
+  height: 80px;
+  font-weight: 900;
+}
+
+.home-1c{
+  height: 100px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home-1d{
+  padding: 15px;
+  background-color: rgb(237, 207, 13);
+  font-size: 20px;
+  width: 200px;
+  /* color: white; */
+  border-radius: 12px;
+  border: none;
+}
+.home-2{
+  height: 400px;
+  width: 560px;
+  /* background-color: aqua; */
+  background-image: url('./components/hero.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.footer-outer{
+   background-color: blue;
+   color: white;
+   text-align: center;
+   height: 100px;
+   line-height: 100px;
+   font-size: 20px;
+   font-weight: 900;
 }
