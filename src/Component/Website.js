@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Website.css";
-import Image8 from "../Assets/Image8.jpg"
-import Image9Right from "../Assets/Image9Right.jpg"
+import Image8 from "../Images/Image8.jpg"
+import Image9Right from "../Images/Image9Right.jpg"
 export default function Website() {
   return (
     <div className='about'>
