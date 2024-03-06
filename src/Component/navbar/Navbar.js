@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaSearch } from "react-icons/fa";
-import logo from "../../Assets/logo.png";
+import logo from "../../Images/logo.png";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 

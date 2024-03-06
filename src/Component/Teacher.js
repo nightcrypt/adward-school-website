@@ -1,11 +1,11 @@
 import React from "react";
 import "./Teacher.css";
 import "./Website.css";
-import Imaget1 from "../Assets/Imaget1.jpg";
-import Imaget2 from "../Assets/Imaget2.jpg";
-import Imaget3 from "../Assets/Imaget3.jpg";
-import Imaget4 from "../Assets/Imaget4.jpg";
-import Image9Right from "../Assets/Image9Right.jpg";
+import Imaget1 from "../Images/Imaget1.jpg";
+import Imaget2 from "../Images/Imaget2.jpg";
+import Imaget3 from "../Images/Imaget3.jpg";
+import Imaget4 from "../Images/Imaget4.jpg";
+import Image9Right from "../Images/Image9Right.jpg";
 
 export default function Teacher() {
   return (
