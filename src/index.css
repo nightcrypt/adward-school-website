@@ -29,7 +29,7 @@ body {
   height: 30px;
   width: 30px;
   background-size: cover;
-  background-image: url('./Assets/logo.png');
+  background-image: url('./Images/logo.png');
 }
 
 .header-logo-2{
@@ -108,7 +108,7 @@ body {
   height: 400px;
   width: 560px;
   /* background-color: aqua; */
-  background-image: url('./Assets/hero.png');
+  background-image: url('./Images/hero.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
